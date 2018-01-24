@@ -31,15 +31,16 @@ class BLEProgressView :UIView {
             delay += 1.0
         }
         bleImageView.image = UIImage(named: "ble")
-        bleImageView.frame = CGRect(x:0,y:0,width:70,height:70)
+        bleImageView.frame = CGRect(x:0,y:0,width:50,height:50)
         bleImageView.center = self.center
         self.addSubview(bleImageView)
+        
     }
     
     private func set(view:UIView) {
-        view.frame = CGRect(x:0,y:0,width:100,height:100)
+        view.frame = CGRect(x:0,y:0,width:80,height:80)
         view.center = self.center
-        view.layer.cornerRadius = 50
+        view.layer.cornerRadius = 40
     }
  
     private func color(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat) -> UIColor {

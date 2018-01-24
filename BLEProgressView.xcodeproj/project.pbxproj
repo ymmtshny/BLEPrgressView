@@ -15,6 +15,7 @@
 		C596831120190AD500CB70EE /* BLEProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596831020190AD500CB70EE /* BLEProgressViewTests.swift */; };
 		C596831C20190AD500CB70EE /* BLEProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596831B20190AD500CB70EE /* BLEProgressViewUITests.swift */; };
 		C596832A20190AED00CB70EE /* BLEProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596832920190AED00CB70EE /* BLEProgressView.swift */; };
+		C596832C2019377800CB70EE /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = C596832B2019377800CB70EE /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		C596831B20190AD500CB70EE /* BLEProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEProgressViewUITests.swift; sourceTree = "<group>"; };
 		C596831D20190AD500CB70EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C596832920190AED00CB70EE /* BLEProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEProgressView.swift; sourceTree = "<group>"; };
+		C596832B2019377800CB70EE /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		C596832D2019379100CB70EE /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		C59682EF20190AD400CB70EE = {
 			isa = PBXGroup;
 			children = (
+				C596832D2019379100CB70EE /* readme.md */,
+				C596832B2019377800CB70EE /* demo.gif */,
 				C59682FA20190AD400CB70EE /* BLEProgressView */,
 				C596830F20190AD500CB70EE /* BLEProgressViewTests */,
 				C596831A20190AD500CB70EE /* BLEProgressViewUITests */,
@@ -237,6 +242,7 @@
 			files = (
 				C596830620190AD400CB70EE /* LaunchScreen.storyboard in Resources */,
 				C596830320190AD400CB70EE /* Assets.xcassets in Resources */,
+				C596832C2019377800CB70EE /* demo.gif in Resources */,
 				C596830120190AD400CB70EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
