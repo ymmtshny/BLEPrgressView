@@ -14,6 +14,7 @@
 		C596830620190AD400CB70EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C596830420190AD400CB70EE /* LaunchScreen.storyboard */; };
 		C596831120190AD500CB70EE /* BLEProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596831020190AD500CB70EE /* BLEProgressViewTests.swift */; };
 		C596831C20190AD500CB70EE /* BLEProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596831B20190AD500CB70EE /* BLEProgressViewUITests.swift */; };
+		C596832A20190AED00CB70EE /* BLEProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596832920190AED00CB70EE /* BLEProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C596831720190AD500CB70EE /* BLEProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C596831B20190AD500CB70EE /* BLEProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEProgressViewUITests.swift; sourceTree = "<group>"; };
 		C596831D20190AD500CB70EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C596832920190AED00CB70EE /* BLEProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C596830220190AD400CB70EE /* Assets.xcassets */,
 				C596830420190AD400CB70EE /* LaunchScreen.storyboard */,
 				C596830720190AD400CB70EE /* Info.plist */,
+				C596832920190AED00CB70EE /* BLEProgressView.swift */,
 			);
 			path = BLEProgressView;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C59682FE20190AD400CB70EE /* ViewController.swift in Sources */,
 				C59682FC20190AD400CB70EE /* AppDelegate.swift in Sources */,
+				C596832A20190AED00CB70EE /* BLEProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555AYYM2W4;
 				INFOPLIST_FILE = BLEProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shinyayamamoto.BLEProgressView;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555AYYM2W4;
 				INFOPLIST_FILE = BLEProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shinyayamamoto.BLEProgressView;
